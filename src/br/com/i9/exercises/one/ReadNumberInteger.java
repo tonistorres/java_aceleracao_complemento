@@ -17,8 +17,8 @@ public class ReadNumberInteger {
 		int primeiroNumero = sc.nextInt();
 		System.out.println("Digite o SEGUNDO numero Inteiro");
 		int segundoNumero = sc.nextInt();
-		System.out.println(primeiroNumero+segundoNumero);
-
+		System.out.println(primeiroNumero + segundoNumero);
+		sc.close();
 	}
 
 }

@@ -22,6 +22,7 @@ public class RadiusCircle {
 		double raio = sc.nextDouble();
 		double area = PI * Math.pow(raio, 2);
 		System.out.printf("Área do Raio é:%.4f", area);
+		sc.close();
 
 	}
 }
